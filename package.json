@@ -1,0 +1,17 @@
+{
+    "name": "nord",
+    "title": "nord",
+    "description": "Nord Color Theme - https://github.com/arcticicestudio/nord",
+    "homepage": "https://github.com/arcticicestudio/nord",
+    "version": "1.0.0",
+    "author": "nord",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "theme.less",
+        "dark": true
+    },
+    "keywords": ["nord", "Dark"]
+}

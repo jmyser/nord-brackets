@@ -1,0 +1,149 @@
+// Styleguide Nord - Polar Night
+@nord0: #2E3440;
+@nord1: #3B4252;
+@nord2: #434C5E;
+@nord3: #4C566A;
+
+// Styleguide Nord - Snow Storm
+@nord4: #D8DEE9;
+@nord5: #E5E9F0;
+@nord6: #ECEFF4;
+
+// Styleguide Nord - Frost
+@nord7: #8FBCBB;
+@nord8: #88C0D0;
+@nord9: #81A1C1;
+@nord10: #5E81AC;
+
+// Styleguide Nord - Aurora
+@nord11: #BF616A;
+@nord12: #D08770;
+@nord13: #EBCB8B;
+@nord14: #A3BE8C;
+@nord15: #B48EAD;
+
+
+@yellow: @nord13;
+@orange: @nord12;
+@red: @nord11;
+@magenta: @nord11;
+@violet: @nord15;
+@blue: @nord9;
+@cyan: @nord7;
+@green: @nord14;
+
+
+.CodeMirror, .CodeMirror-scroll {
+  background-color: @nord0;
+  color: @nord4;
+}
+.CodeMirror-focused .CodeMirror-activeline-background {
+  background: @nord1;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+  box-shadow: inset 15px 0 0 0 @nord1;
+}
+.CodeMirror-focused .CodeMirror-activeline {
+  .CodeMirror-gutter-elt {
+    background: rgba(0, 0, 0, 0.2);
+    color: @nord4;
+  }
+  .inline-widget .CodeMirror-gutter-elt {
+    color: @nord4;
+  }
+}
+.cm-atom {color: @blue;}
+.cm-string {color: @green;}
+.cm-string-2 {color: @violet;}
+.cm-hr {color: @violet;}
+.cm-number {color: @violet}
+.cm-attribute {color: @cyan;}
+.cm-plus {color: @cyan;}
+.cm-def {color: @nord4;}
+.cm-property {color: @cyan;}
+.cm-variable {color: @nord4;}
+.cm-variable-2 {color: @nord4;}
+.cm-variable-3 {color: @blue;}
+.cm-operator {color: @nord4;}
+.cm-meta {color: @cyan;}
+.cm-bracket {color: @nord4;}
+.cm-comment {color: @nord3;}
+.cm-error, .cm-minus {color: @red;}
+.cm-header {color: @magenta;}
+.cm-link {color: @orange; text-decoration: none;}
+.cm-rangeinfo {color: @yellow;}
+.cm-keyword {color: @blue;}
+.cm-qualifier {color: @cyan;}
+.cm-builtin {color: @blue;}
+.cm-tag {color: @blue;}
+.cm-quote {color: @blue;}
+
+/* Extra CSS */
+
+.CodeMirror-searching {
+  background-color: @green;
+  &.searching-current-match {
+    background-color: @orange;
+  }
+}
+.CodeMirror-cursor {
+  border-left: 1px solid @nord3 !important;
+}
+.CodeMirror-gutters {
+  background-color: @nord0;
+  border-right: none;
+}
+.CodeMirror-linenumber {
+  color: @nord3;
+}
+.CodeMirror .CodeMirror-selected {
+  background: @nord3;
+}
+.CodeMirror-focused .CodeMirror-selected {
+  background: @nord1;
+}
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+/* Ensure visibility against gray inline editor background */
+  background-color: @nord1;
+  color: @nord4 !important;
+}
+.CodeMirror-overwrite .CodeMirror-cursor {
+  border-left: none !important;
+  border-bottom: 1px solid @green;
+}
+
+/* Extra stuff */
+
+.CodeMirror {
+  .CodeMirror {
+    background: transparent;
+  }
+  .CodeMirror .CodeMirror-gutters {
+    background: transparent;
+    border-right: none;
+  }
+  .CodeMirror .CodeMirror-activeline-background {
+    background: transparent;
+  }
+  .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent;
+    color: @nord4;
+  }
+  .CodeMirror-focused .CodeMirror-activeline-background {
+    background: @nord1;
+  }
+  .CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+      background: rgba(0, 0, 0, 0.2);
+      color: @nord4;
+    }
+  }
+}
+/* Non-editor styling */
+.image-view,
+.not-editor {
+  background-color: @nord0;
+}
+.view-pane .image-view {
+  color: @nord4;
+}
