@@ -1,11 +1,15 @@
 {
     "name": "nord",
-    "title": "nord",
-    "description": "Nord Color Theme - https://github.com/arcticicestudio/nord",
+    "title": "Nord",
+    "description": "An arctic, north-bluish color palette",
+    "author": {
+        "name": "Arctic Ice Studio",
+        "email": "development@arcticicestudio.com",
+        "url": "http://arcticicestudio.com"  
+    },
     "homepage": "https://github.com/arcticicestudio/nord",
-    "version": "1.0.0",
-    "author": "nord",
-    "license": "MIT",
+    "version": "0.2.1",
+    "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
     "engines": {
         "brackets": ">=0.42.0"
     },
@@ -13,5 +17,15 @@
         "file": "theme.less",
         "dark": true
     },
-    "keywords": ["nord", "Dark"]
+    "keywords": [
+    "nord",
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "minimal",
+    "flat",
+    "ui",
+    "syntax"
+  ]
 }
