@@ -1,4 +1,4 @@
-<p align="center"><img src="nord-brackets/assets/nord-brackets-banner.svg"/></p>
+<p align="center"><img src="https://rawgit.com/jmyser/nord-brackets/master/assets/nord-brackets-banner.svg"/></p>
 
 <p align="center">An arctic, north-bluish clean and elegant <a href="http://brackets.io/">Brackets</a> theme.</p>
 
