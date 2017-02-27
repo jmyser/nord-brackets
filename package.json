@@ -3,12 +3,12 @@
     "title": "Nord",
     "description": "An arctic, north-bluish color palette",
     "author": {
-        "name": "Arctic Ice Studio",
-        "email": "development@arcticicestudio.com",
-        "url": "http://arcticicestudio.com"  
+        "name": "jmyser extended from Arctic Ice Studio",
+        "email": "jmyser",
+        "url": "http://github.com/jmyser/nord-brackets"  
     },
-    "homepage": "https://github.com/arcticicestudio/nord",
-    "version": "0.2.1",
+    "homepage": "https://github.com/jmyser/nord-brackets",
+    "version": "0.2.2",
     "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
     "engines": {
         "brackets": ">=0.42.0"
